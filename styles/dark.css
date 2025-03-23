@@ -5,12 +5,17 @@
 */
 
 :root.theme-dark {
+  --page-bg-color: #000028;
+  --page-dark-bg-image: url("../images/cover-image-dark.png");
+  --corporate-color: #ff0070;
+  --accent-color: #db00ff;
+  --specific-elements-color: var(--corporate-color);
+  --info__text-color: #f1b2ce;
+  --button-hover-border-color: #ff007066;
+  --button-focus-outline-color: var(--corporate-color);
+  --link-hover-border-color: var(--info__text-color);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
-
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
 }
