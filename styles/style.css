@@ -113,6 +113,7 @@
   line-height: var(--base-line-height);
   color: var(--corporate-color);
   font-weight: var(--bold-text-base-font-weight);
+  color: var(--specific-elements-color);
 }
 .info__content-box {
   display: grid;
@@ -171,7 +172,7 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  margin-top: var(--margin-between-blocks);
+  margin-top: calc(var(--margin-between-blocks) - 1px);
   padding: 0 var(--base-spacing);
   padding: var(--base-spacing);
 }
@@ -220,6 +221,9 @@
   .galery__image:nth-of-type(2),
   .galery__image:nth-of-type(3) {
     grid-row: span 2;
+  }
+  .footer {
+    margin-top: var(--base-spacing);
   }
 }
 @media (min-width: 1024px) {
