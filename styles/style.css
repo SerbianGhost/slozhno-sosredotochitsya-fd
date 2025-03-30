@@ -199,7 +199,7 @@
   }
   .info__specific-grid-layout .info__title {
     grid-column: 1/-1;
-    width: calc((100% - 40px) / 3);
+    width: calc((100% - var(--content-gap) * 2) / 3);
   }
   .info__specific-grid-layout .info__content-box {
     grid-column: 1/-1;
