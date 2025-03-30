@@ -1,7 +1,7 @@
 .page * {
   font-family: var(--base-font-family);
   font-size: var(--base-font-size);
-  font-weight: normal;
+  font-weight: var(--base-font-weight);
 }
 .page {
   background-image: var(--page-bg-image);
@@ -109,6 +109,9 @@
   display: grid;
   gap: var(--content-gap);
 }
+.info__base-grid-layout {
+  gap: var(--info-base-grid-layout-gap);
+}
 .info__title {
   line-height: var(--base-line-height);
   font-weight: var(--bold-text-base-font-weight);
@@ -146,7 +149,7 @@
   font-weight: var(--bold-text-base-font-weight);
 }
 .info__thin-title {
-  font-weight: 400;
+  font-weight: var(--base-font-weight);
 }
 .galery {
   display: grid;
@@ -226,9 +229,6 @@
   }
   .header__theme-menu-list {
     flex-direction: row;
-  }
-  .info__base-grid-layout {
-    gap: 10px;
   }
   .info__specific-grid-layout .info__content-box {
     display: grid;

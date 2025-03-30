@@ -13,6 +13,7 @@
   --base-spacing: 10px;
   --base-font-size: 18px;
   --base-line-height: 23.4px;
+  --base-font-weight: 400;
   --margin-between-blocks: 40px;
   --accent-block-height: 100vh;
   --accent-block-min-height: 668px;
@@ -21,6 +22,7 @@
   --accent-text-line-height: 83%;
   --bold-text-base-font-weight: 700;
   --content-gap: 20px;
+  --info-base-grid-layout-gap: var(--content-gap);
   --galery-gap: 10px;
 }
 @media (min-width: 768px) {
@@ -33,5 +35,10 @@
       9.8125rem
     );
     --galery-gap: var(--content-gap);
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --info-base-grid-layout-gap: 10px;
   }
 }
