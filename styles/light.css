@@ -23,6 +23,9 @@
     --button-focus-outline-color: #353430;
     --link-hover-border-color: #353430;
   }
+  .header__decoration {
+    display: none;
+  }
 }
 .theme-light .header__decoration {
   display: none;

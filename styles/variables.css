@@ -9,95 +9,26 @@
   --button-hover-border-color: #ff007066;
   --button-focus-outline-color: var(--corporate-color);
   --link-hover-border-color: var(--info-text-color);
-  --page-padding: 0 10px;
-  --base-text-font-size: 18px;
-  --header-padding-top: 10px;
-  --header-theme-menu-grid-column: 2/3;
-  --header-theme-menu-grid-row: auto;
-  --header-theme-menu-justify-self: end;
-  --header-theme-menu-margin-top: 71px;
-  --header-theme-menu-list-flex-direction: column;
-  --header-theme-menu-list-gap: 13px;
-  --header-title-margin-top: 67px;
-  --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --header-title-line-height: 83%;
-  --header-title-grid-column: 1/-1;
-  --header-title-margin-left: 0;
-  --header-text-grid-column: 1/-1;
-  --header-text-margin-top: 55px;
-  --main-margin-top: 40px;
-  --main-gap: 50px;
-  --info-gap: 20px;
-  --info-text-content-line-height: 23.4px;
-  --info-content-gap: 10px;
-  --info-with-galery-gap: 12px;
-  --info-galery-gap: 10px;
-  --info-galery-grid-template-columns: 1fr;
-  --info-with-unique-sub-title-grid-template-rows: auto;
-  --info-image-grid-column: auto;
-  --info-image-grid-row: auto;
-  --info-base-grid-layout-grid-template-columns: auto;
-  --info-base-grid-layout-grid-template-rows: auto;
-  --info-base-grid-layout-gap: var(--info-gap);
-  --info-specific-grid-layout-info-title-grid-column: 1;
-  --info-specific-grid-layout-info-title-width: 100%;
-  --info-base-grid-layout-info-content-grid-column: auto;
-  --info-base-grid-layout-info-content-justify-self: auto;
-  --info-specific-grid-layout-grid-template-columns: auto;
-  --info-specific-grid-layout-grid-template-rows: auto;
-  --info-specific-grid-layout-info-content-grid-column: auto;
-  --info-specific-grid-layout-align-items: normal;
-  --footer-margin-top: 39px;
-  --footer-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --footer-title-line-height: 83%;
+  --base-font-family: "IBM Plex mono", sans-serif;
+  --base-spacing: 10px;
+  --base-font-size: 18px;
+  --base-line-height: 23.4px;
+  --margin-between-blocks: 40px;
+  --accent-block-height: 100vh;
+  --accent-block-min-height: 668px;
+  --accent-text-base-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --accent-text-shadow: 4px 4px 0 var(--corporate-color);
+  --accent-text-line-height: 83%;
+  --bold-text-base-font-weight: 700;
 }
 @media (min-width: 768px) {
   :root {
-    --page-padding: 0 20px;
-    --header-theme-menu-margin-top: 189px;
-    --header-title-margin-top: 174px;
-    --header-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --header-title-margin-left: -20px;
-    --header-text-grid-column: 2/3;
-    --header-text-margin-top: 161px;
-    --main-margin-top: 60px;
-    --main-gap: 81px;
-    --info-base-grid-layout-grid-template-columns: 236px 1fr;
-    --info-base-grid-layout-info-content-grid-column: 2;
-    --info-base-grid-layout-info-content-justify-self: end;
-    --info-specific-grid-layout-grid-template-columns: repeat(3, 1fr);
-    --info-specific-grid-layout-grid-template-rows: auto;
-    --info-specific-grid-layout-info-content-grid-column: 1/-1;
-    --info-with-unique-sub-title-grid-template-rows: 23.2px;
-    --info-with-galery-gap: 17px;
-    --info-galery-grid-template-columns: repeat(
-      3,
-      minmax(230px, calc((100% - 40px) / 3))
+    --base-spacing: 20px;
+    --margin-between-blocks: 60px;
+    --accent-text-base-font-size: clamp(
+      7.5rem,
+      0.5625rem + 14.4531vw,
+      9.8125rem
     );
-    --info-galery-gap: 20px;
-    --info-image-grid-column: span 2;
-    --info-image-grid-row: span 2;
-    --footer-margin-top: 62px;
-    --footer-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-}
-@media (min-width: 1024px) {
-  :root {
-    --header-theme-menu-list-flex-direction: row;
-    --header-theme-menu-grid-row: 1;
-    --header-theme-menu-grid-column: 1/-1;
-    --header-theme-menu-margin-top: 20px;
-    --header-theme-menu-list-gap: 11px;
-    --header-theme-menu-justify-self: center;
-    --header-title-margin-top: 272px;
-    --header-title-margin-left: -21px;
-    --header-text-margin-top: 113px;
-    --main-margin-top: 57px;
-    --info-base-grid-layout-grid-template-columns: 314.96px 1fr;
-    --info-specific-grid-layout-grid-template-columns: repeat(3, 1fr);
-    --info-specific-grid-layout-align-items: start;
-    --info-specific-grid-layout-info-content-grid-column: span 1;
-    --info-specific-grid-layout-info-title-grid-column: 1/-1;
-    --info-specific-grid-layout-info-title-width: calc(100% / 3);
   }
 }

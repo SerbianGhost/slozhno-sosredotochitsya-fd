@@ -3,7 +3,7 @@
   --page-bg-image: url("../images/cover-image-dark.png");
   --corporate-color: #ff0070;
   --accent-color: #db00ff;
-  --title-with-bg-text-color: #000028;
+  --title-with-bg-text-color: var(--page-bg-color);
   --specific-elements-color: var(--corporate-color);
   --info-text-color: #f1b2ce;
   --button-hover-border-color: #ff007066;
@@ -17,11 +17,17 @@
     --page-bg-image: url("../images/cover-image-dark.png");
     --corporate-color: #ff0070;
     --accent-color: #db00ff;
-    --title-with-bg-text-color: #000028;
+    --title-with-bg-text-color: var(--page-bg-color);
     --specific-elements-color: var(--corporate-color);
     --info-text-color: #f1b2ce;
     --button-hover-border-color: #ff007066;
     --button-focus-outline-color: var(--corporate-color);
     --link-hover-border-color: var(--info-text-color);
   }
+  .header__decoration {
+    display: flex;
+  }
+}
+.theme-dark .header__decoration {
+  display: flex;
 }
