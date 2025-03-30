@@ -3,12 +3,12 @@
   --page-bg-image: url("../images/cover-image-light.png");
   --corporate-color: #ff8dcb;
   --accent-color: #ffc2e6;
-  --title-with-bg-text-color: #353430;
   --specific-elements-color: #353430;
+  --title-with-bg-text-color: var(--specific-elements-color);
   --info-text-color: var(--specific-elements-color);
   --button-hover-border-color: #32312d66;
-  --button-focus-outline-color: #353430;
-  --link-hover-border-color: #353430;
+  --button-focus-outline-color: var(--specific-elements-color);
+  --link-hover-border-color: var(--specific-elements-color);
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -16,12 +16,12 @@
     --page-bg-image: url("../images/cover-image-light.png");
     --corporate-color: #ff8dcb;
     --accent-color: #ffc2e6;
-    --title-with-bg-text-color: #353430;
     --specific-elements-color: #353430;
+    --title-with-bg-text-color: var(--specific-elements-color);
     --info-text-color: var(--specific-elements-color);
     --button-hover-border-color: #32312d66;
-    --button-focus-outline-color: #353430;
-    --link-hover-border-color: #353430;
+    --button-focus-outline-color: var(--specific-elements-color);
+    --link-hover-border-color: var(--specific-elements-color);
   }
   .header__decoration {
     display: none;

@@ -20,6 +20,8 @@
   --accent-text-shadow: 4px 4px 0 var(--corporate-color);
   --accent-text-line-height: 83%;
   --bold-text-base-font-weight: 700;
+  --content-gap: 20px;
+  --galery-gap: 10px;
 }
 @media (min-width: 768px) {
   :root {
@@ -30,5 +32,6 @@
       0.5625rem + 14.4531vw,
       9.8125rem
     );
+    --galery-gap: var(--content-gap);
   }
 }

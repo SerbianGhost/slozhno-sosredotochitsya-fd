@@ -10,7 +10,6 @@
   --button-focus-outline-color: var(--corporate-color);
   --link-hover-border-color: var(--info-text-color);
 }
-
 @media (prefers-color-scheme: dark) {
   :root {
     --page-bg-color: #000028;
