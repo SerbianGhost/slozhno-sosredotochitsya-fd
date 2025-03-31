@@ -59,7 +59,7 @@
   height: 9px;
   border-radius: 100%;
   background-color: var(--corporate-color);
-  box-shadow: 0 0 20px 5px var(--corporate-color);
+  box-shadow: 0 0 4px 2px var(--corporate-color);
 }
 .header__theme-menu-list {
   display: flex;
