@@ -69,7 +69,7 @@
 .header__theme-menu-button {
   background-color: transparent;
   border: 1px solid transparent;
-  color: var(--corporate-color);
+  color: var(--specific-elements-color);
   padding: 2px 12px 4px 13px;
   text-transform: lowercase;
   line-height: 18px;
